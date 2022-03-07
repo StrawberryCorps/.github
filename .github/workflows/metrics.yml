@@ -24,6 +24,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.pagespeed.detailed.svg
+          token: NOT_REQUIRED
           base: ""
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
